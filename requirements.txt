@@ -1,0 +1,15 @@
+librosa==0.10.2.post1
+matplotlib==3.8.4
+matplotlib==3.7.1
+numpy==1.24.3
+numpy==1.24.2
+pandas==2.2.3
+scikit_learn==1.2.2
+scipy==1.10.1
+sounddevice==0.5.1
+soundfile==0.12.1
+streamlit==1.43.2
+streamlit_audiorecorder==0.0.6
+tensorflow==2.16.1
+tensorflow_intel==2.16.1
+matplotlib==3.8.0

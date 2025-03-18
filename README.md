@@ -1,5 +1,47 @@
 # Audio Noise Cancellation
 
+Built a deep learning pipeline to enhance audio quality by reducing background noise.
+
+## Getting Started
+
+### Clone the Repository
+
+To get started, clone the repository:
+
+```bash
+git clone https://github.com/ms0525/Audio-Noise-Cancellation.git
+cd Audio-Noise-Cancellation
+```
+
+### Install Dependencies
+
+Install all required dependencies from the `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Running the Jupyter Notebook
+
+The Noise_cancellation folder contains `Noise_cancellation.ipynb` an interactive Jupyter Notebook.\
+To run it:
+
+1. Upload the notebook to Google Colab.
+2. Open and run the notebook.
+
+## Running the Streamlit App
+
+The Code folder contains `app.py` file that runs the Streamlit-based user interface. To launch the app:
+
+```bash
+streamlit run Code/app.py
+```
+
+### Features:
+
+- Upload a pre-recorded audio file or record one using your device.
+- Apply noise cancellation to enhance the audio quality.
+
 ## 1 - Introduction
 
 A model can be trained for noise reduction using convolution neuratl network (CNN). Most of the applications of CNN are image related, such as image segmentation and image classification. But can we use CNN to reduce background noise from an audio? The answer is yes, We can get visual representation of audios by ploting their spectrograms. Let's get started.
