@@ -42,6 +42,8 @@ streamlit run Code/app.py
 - Upload a pre-recorded audio file or record one using your device.
 - Apply noise cancellation to enhance the audio quality.
 
+# How and Why it Works
+
 ## 1 - Introduction
 A model can be trained for noise reduction using convolution neuratl network (CNN). Most of the applications of CNN are image related, such as image segmentation and image classification. But can we use CNN to reduce background noise from an audio? The answer is yes, We can get visual representation of audios by ploting their spectrograms. Let's get started.
 
