@@ -1,5 +1,4 @@
 # Audio Noise Cancellation
-Built a deep learning pipeline to enhance audio quality by reducing background noise.
 
 Built a deep learning pipeline to enhance audio quality by reducing background noise.
 
